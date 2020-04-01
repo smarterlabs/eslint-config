@@ -1,0 +1,34 @@
+{
+	"name": "@smarterlabs/eslint-config",
+	"description": "An ESLint config for Smarter Labs JavaScript projects.",
+	"version": "1.0.7",
+	"main": "index.js",
+	"author": "https://smarterlabs.com",
+	"license": "MIT",
+	"scripts": {
+		"publish": "npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smarterlabs/eslint-config"
+	},
+	"homepage": "https://github.com/smarterlabs/eslint-config#readme",
+	"bugs": {
+		"url": "https://github.com/smarterlabs/eslint-config/issues"
+	},
+	"keywords": [
+		"smarter",
+		"labs",
+		"eslint",
+		"config"
+	],
+	"peerDependencies": {
+		"eslint": ">= 3"
+	},
+	"dependencies": {
+		"babel-eslint": "^10.0.3",
+		"eslint-plugin-jest": "^22.17.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-react": "^7.10.0"
+	}
+}
